@@ -2,6 +2,8 @@ public class Light {
     private static int totalOn = 0;
     private boolean isOn;
 
+    private static int totalBrightness = 0;
+
     public Light() {
         this.isOn = false;
     }
@@ -38,7 +40,23 @@ public class Light {
         toggleOn();
     }
 
-    public void clearCount(){
-        Light.totalOn = 0;
+    public static void clearCount(){
+        Light.totalBrightness = 0;
     }
+
+    public void handleBrightnessCount(boolean turnOn, boolean toggle){
+        if(turnOn){
+            totalBrightness++;
+        } else if (toggle) {
+            totalBrightness += 2;
+        } else{
+            totalBrightness = Math.max(0,totalBrightness - 1);
+        }
+    }
+
+    public static int getTotalBrightness(){
+        return totalBrightness;
+    }
+
+
 }

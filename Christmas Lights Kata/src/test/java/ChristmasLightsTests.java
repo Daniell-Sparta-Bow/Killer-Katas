@@ -96,4 +96,77 @@ public class ChristmasLightsTests {
 
     }
 
+    @Test
+    @DisplayName("given an input of (0,0) and (0,0) false true total brightness should be 2")
+    void givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2() {
+        // Arrange
+        int expected = 2;
+        int actual;
+        // Act
+        ChristmasLights.toggleLightsBrightness(0,0,0,0);
+        actual = ChristmasLights.getTotalBrightness();
+        // Assert
+        Assertions.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    @DisplayName("given an input of (0,0) and (0,0) true false total brightness should be 1")
+    void givenAnInputOf00And00TrueFalseTotalBrightnessShouldBe1() {
+        // Arrange
+        int expected = 1;
+        int actual;
+        // Act
+        ChristmasLights.toggleLightsBrightness(0,0,0,0, true);
+        actual = ChristmasLights.getTotalBrightness();
+        // Assert
+        Assertions.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    @DisplayName("given an input of (0,0) and (0,0) false false total brightness should be 0")
+    void givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0() {
+        // Arrange
+        int expected = 0;
+        int actual;
+        // Act
+        ChristmasLights.toggleLightsBrightness(0,0,0,0, false);
+        actual = ChristmasLights.getTotalBrightness();
+        // Assert
+        Assertions.assertEquals(expected, actual);
+
+    }
+
+    @Test
+    @DisplayName("given an input of (0,0) an d (0,0) false true, followed by Light.clearCount(), total brightness should be 0")
+    void givenAnInputOf00AnD00FalseTrueFollowedByLightClearCountTotalBrightnessShouldBe0() {
+        // Arrange
+        int expected = 0;
+        int actual;
+        // Act
+        ChristmasLights.toggleLightsBrightness(0,0,0,0);
+        Light.clearCount();
+        actual = ChristmasLights.getTotalBrightness();
+        // Assert
+        Assertions.assertEquals(expected, actual);
+
+
+    }
+
+    @Test
+    @DisplayName("given a light is switched on, getIsOn should return true")
+    void givenALightIsSwitchedOnGetIsOnShouldReturnTrue() {
+        // Arrange
+        Light light = new Light();
+        boolean expected = true;
+        boolean actual;
+        // Act
+        light.toggleOn();
+        actual = light.getIsOn();
+        // Assert
+        Assertions.assertEquals(expected, actual);
+
+    }
+
 }

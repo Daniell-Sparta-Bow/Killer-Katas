@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d61274-3de3-4522-8cb0-6ba7d9d13da9" name="Changes" comment="" />
+    <list default="true" id="a8d61274-3de3-4522-8cb0-6ba7d9d13da9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChristmasLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChristmasLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChristmasLightsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChristmasLightsTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +41,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.App.executor": "Run",
-    "JUnit.ChristmasLightsTests.executor": "Run",
+    "JUnit.ChristmasLightsTests.executor": "Coverage",
+    "JUnit.ChristmasLightsTests.givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0.executor": "Coverage",
+    "JUnit.ChristmasLightsTests.givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2.executor": "Coverage",
+    "JUnit.ChristmasLightsTests.givenAnInputOf00And00TrueFalseTotalBrightnessShouldBe1.executor": "Run",
     "JUnit.ChristmasLightsTests.givenAnInputOf00And9999FollowedBy004949FalseWillTurnOnHalfTheLights.executor": "Run",
     "JUnit.ChristmasLightsTests.givenAnInputOf0_0And999_0WillTurnOn1000Lights.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -44,7 +53,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.ChristmasLightsTests.givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="ChristmasLightsKata" />
@@ -61,21 +70,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChristmasLightsTests.givenAnInputOf00And9999FollowedBy004949FalseWillTurnOnHalfTheLights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChristmasLightsTests.givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChristmasLightsKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ChristmasLightsTests" />
-      <option name="METHOD_NAME" value="givenAnInputOf00And9999FollowedBy004949FalseWillTurnOnHalfTheLights" />
+      <option name="METHOD_NAME" value="givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChristmasLightsTests.givenAnInputOf0_0And999_0WillTurnOn1000Lights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChristmasLightsTests.givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChristmasLightsKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ChristmasLightsTests" />
-      <option name="METHOD_NAME" value="givenAnInputOf0_0And999_0WillTurnOn1000Lights" />
+      <option name="METHOD_NAME" value="givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChristmasLightsTests.givenAnInputOf00And00TrueFalseTotalBrightnessShouldBe1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChristmasLightsKata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChristmasLightsTests" />
+      <option name="METHOD_NAME" value="givenAnInputOf00And00TrueFalseTotalBrightnessShouldBe1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,10 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ChristmasLightsTests.givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0" />
+        <item itemvalue="JUnit.ChristmasLightsTests.givenAnInputOf00And00TrueFalseTotalBrightnessShouldBe1" />
+        <item itemvalue="JUnit.ChristmasLightsTests.givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2" />
         <item itemvalue="JUnit.ChristmasLightsTests" />
-        <item itemvalue="JUnit.ChristmasLightsTests.givenAnInputOf00And9999FollowedBy004949FalseWillTurnOnHalfTheLights" />
-        <item itemvalue="JUnit.ChristmasLightsTests.givenAnInputOf0_0And999_0WillTurnOn1000Lights" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -107,5 +127,10 @@
       <updated>1714244796630</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Christmas_Lights_Kata$ChristmasLightsTests.ic" NAME="ChristmasLightsTests Coverage Results" MODIFIED="1714310321559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Christmas_Lights_Kata$ChristmasLightsTests_givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2.ic" NAME="ChristmasLightsTests.givenAnInputOf00And00FalseTrueTotalBrightnessShouldBe2 Coverage Results" MODIFIED="1714310569646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Christmas_Lights_Kata$ChristmasLightsTests_givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0.ic" NAME="ChristmasLightsTests.givenAnInputOf00And00FalseFalseTotalBrightnessShouldBe0 Coverage Results" MODIFIED="1714310981435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
